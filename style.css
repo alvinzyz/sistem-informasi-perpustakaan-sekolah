@@ -1,0 +1,135 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+/* Navigation */
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+nav .container ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav .container ul li {
+  margin: 0 15px;
+}
+
+nav .container ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+nav .container ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Section Styling */
+.section {
+  margin: 40px 0;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+  margin-bottom: 20px;
+  font-size: 1.8em;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table th {
+  background-color: #4caf50;
+  color: white;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 10px;
+  font-size: 1.1em;
+}
+
+form input,
+form select,
+form button {
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 1em;
+}
+
+form button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  margin-top: 40px;
+}
